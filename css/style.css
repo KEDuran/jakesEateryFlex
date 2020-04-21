@@ -1,4 +1,56 @@
+body {
+	margin: 0;
+}
+
 /* Navigation styles */
+.logo {
+	height: 100px;
+	width: 100%;
+	background-image: url("../images/jakes-logo.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-bottom: 25px;
+}
+
+.nav {
+	background-color: black;
+	height: 75px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.left {
+	justify-content: flex-start;
+	padding-left: 25px;
+}
+
+.left button {
+	background-color: lightskyblue;
+	color: black;
+	text-align: center;
+	font-size: 16px;
+	padding: 5px 50px;
+}
+.center a {
+	color: white;
+	text-decoration: none;
+	margin: 10px;
+}
+
+.right {
+	justify-content: flex-end;
+	padding-right: 25px;
+}
+
+.right button {
+	background-color: yellow;
+	color: black;
+	text-align: center;
+	font-size: 16px;
+	padding: 5px 50px;
+}
 
 /* Column styles */
 
