@@ -1,3 +1,9 @@
+/*
+Step 1 - Add images to the HTML code.
+Step 2 - Identify the class selectors that need to be included in the CSS file.
+Step 3 - Build the CSS selectors according to the following elements: logo, nav (parent and child), column (parent and child), and footer.
+	*/
+
 body {
 	margin: 0;
 }
@@ -5,7 +11,6 @@ body {
 /* Navigation styles */
 .logo {
 	height: 100px;
-	width: 100%;
 	background-image: url("../images/jakes-logo.png");
 	background-position: center;
 	background-size: contain;
@@ -56,8 +61,26 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-repeat: no-repeat;
 }
-
+.meal1 {
+	background-image: url("../images/steak.png");
+	margin: 30px;
+	height: 300px;
+	background-repeat: no-repeat;
+}
+.meal2 {
+	background-image: url("../images/soup.png");
+	margin: 30px;
+	height: 300px;
+	background-repeat: no-repeat;
+}
+.meal3 {
+	background-image: url("../images/cheesecake.png");
+	margin: 30px;
+	height: 300px;
+	background-repeat: no-repeat;
+}
 /* Column styles */
 
 /* Footer Styles */
